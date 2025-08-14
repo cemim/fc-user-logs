@@ -4,8 +4,8 @@
 * Plugin URI: https://www.wordpress.org/fc-user-logs
 * Description: Registra logs de alteração nos usuários, compatível com o LMS Learndash
 * Version: 1.0
-* Requires at least: 6.8
-* Requires PHP: 8.0
+* Requires at least: 6.5
+* Requires PHP: 7.4
 * Author: Filipe Cemim
 * License: GPL v2 or later
 * License URI: https://www.gnu.org/licenses/gpl-2.0.html
