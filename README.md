@@ -24,8 +24,8 @@ Este plugin permite monitorar mudanças em usuários e metadados do WordPress, i
 
 ## Requisitos
 
-- WordPress 6.8 ou superior
-- PHP 8.0 ou superior
+- WordPress 6.5 ou superior
+- PHP 7.4 ou superior
 - LMS LearnDash (opcional, apenas para integração com grupos)
 
 ## Uso
