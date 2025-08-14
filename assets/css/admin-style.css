@@ -1,0 +1,69 @@
+.fc-user-logs-filters {
+    margin-top: 2em;    
+}
+
+.fc-user-logs-filters input{
+    margin-bottom: 1em;    
+}
+
+.fc-user-logs-table {
+    table-layout: fixed;
+    width: 100%;
+    margin-top: 4em;
+}
+
+.fc-user-logs-table th,
+.fc-user-logs-table td {
+    white-space: normal;
+    word-wrap: break-word;    
+}
+.fc-user-logs-table th:nth-child(1) { width: 20%; }
+.fc-user-logs-table th:nth-child(2) { width: 25%; }
+.fc-user-logs-table th:nth-child(3) { width: 25%; }
+.fc-user-logs-table th:nth-child(4) { width: 20%; }
+.fc-user-logs-table th:nth-child(5) { width: 10%; }
+
+
+@media (max-width: 1020px) {
+    .fc-user-logs-table {
+        display: block;
+        width: 100%;
+        background: none !important;
+        border: none !important;
+    }
+
+    .fc-user-logs-table thead {
+        display: none;
+    }
+
+    .fc-user-logs-table tbody {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+    .fc-user-logs-table tr {
+        display: block;
+        width: 100%;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 1em;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .fc-user-logs-table td {
+        display: block;
+        width: 100%;
+        padding: 0.25em 0;
+        border: none;
+    }
+
+    .fc-user-logs-table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: block;
+        margin-bottom: 0.2em;
+        color: #333;
+    }
+}
